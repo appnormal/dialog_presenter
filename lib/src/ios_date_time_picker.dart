@@ -22,7 +22,7 @@ class IOSDateTimePicker extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  _IOSDateTimePickerState createState() => _IOSDateTimePickerState();
+  State<IOSDateTimePicker> createState() => _IOSDateTimePickerState();
 }
 
 class _IOSDateTimePickerState extends State<IOSDateTimePicker> {
@@ -49,7 +49,7 @@ class _IOSDateTimePickerState extends State<IOSDateTimePicker> {
             CupertinoButton(
               child: Text(
                 widget.doneButtonText ?? 'Done',
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 17,
                   fontWeight: FontWeight.normal,
                   color: CupertinoColors.activeBlue,
