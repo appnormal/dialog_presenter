@@ -1,6 +1,6 @@
 name: dialog_presenter
 description: Easily create and queue dialogs.
-version: 1.0.2
+version: 1.0.3
 homepage: https://github.com/appnormal/dialog_presenter
 
 environment:

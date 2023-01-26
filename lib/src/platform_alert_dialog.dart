@@ -47,6 +47,9 @@ class PlatformAlertDialogAction extends StatelessWidget {
         onPressed: onPressed,
         isDestructiveAction: isDestructiveAction,
         isDefaultAction: isDefaultAction,
+        textStyle: TextStyle(
+          color: isDestructiveAction ? CupertinoColors.systemRed : CupertinoColors.activeBlue,
+        ),
         child: child,
       );
     } else {
